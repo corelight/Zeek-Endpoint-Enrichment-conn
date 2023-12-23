@@ -1,8 +1,4 @@
 [package]
-description = updated 23Dec20231014 - This package enriches the Conn.log by adding information from a vulnerability scanner or endpoint agent.
+description = updated 23Dec20231039 - This package enriches the Conn.log by adding information from a vulnerability scanner or endpoint agent.
 script_dir = scripts
 depends = https://github.com/corelight/Zeek-Endpoint-Enrichment *
-
-[input hosts_data.tsv]
-summary=List of all known hosts address.
-description=List of all known hosts with IP addresses from a vulnerability scanner or endpoint management system.
