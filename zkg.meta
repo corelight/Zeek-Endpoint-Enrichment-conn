@@ -1,4 +1,5 @@
 [package]
-description = updated 12Jan20241200 - This package enables the option to enrich the conn.log with information from a vulnerability scanner or endpoint agent.
+description = v1.0.0 - This package enables the option to enrich the conn.log with information from a vulnerability scanner or endpoint agent.
 script_dir = scripts
 depends = https://github.com/corelight/Zeek-Endpoint-Enrichment *
+version=1.0.0
